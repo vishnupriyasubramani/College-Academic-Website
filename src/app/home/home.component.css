@@ -1,0 +1,36 @@
+.h1{
+    background-color: blue;
+}
+.marquee{
+    padding: 20px;
+}
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px
+    
+}
+img{
+    padding: 20px;
+    opacity: 1;
+}
+h3{
+    text-align: center;
+    color: blue;
+
+}
+#c1{
+	display:flex;
+	margin:solid white 10px;
+	padding-left: 20px;
+	text-align:center;
+    margin-left: 500px;
+}
+#c2{
+	display:flex;
+	margin:solid white 20px;
+	padding-left: 20px;
+	text-align:center;
+    margin-left: 500px;
+
+}
+

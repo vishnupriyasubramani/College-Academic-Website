@@ -1,0 +1,36 @@
+<section id="content">
+  <aside id="sidebar">
+    <div>
+      <img src="assets/student-login.jpeg" width="350px" height="350px">
+    </div>
+  </aside>
+
+  <article class="column1">
+    <div class="container-fluid"> 
+      <div class="row border">
+        <div class="col-am-12">
+          <div class="container" style="max-width:300px">
+            <form>
+
+              <div>
+                <label>Student ID</label>
+                <input type="text" name="id" [(ngModel)]="userObj.id" class="form-control" required>
+              </div>
+              <div>
+                <label>Email</label>
+                <input type="email" name="email" [(ngModel)]="userObj.email" class="form-control" required>
+              </div>
+              <div>
+                <label>Password</label>
+                <input type="password" name="password" [(ngModel)]="userObj.password" class="form-control" required>
+              </div>
+              <div>
+                <button type="button" class="btn btn-secondary" (click)="studentLogin()">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>

@@ -1,0 +1,232 @@
+<article class="column1">
+    <div class="container-fluid">
+      <div class="col-sm-12">
+        <h2>Student Progress Report </h2>
+  
+        <h5>Student Name: Vishnupriya</h5>
+        <h6>Roll No: E21CC054</h6>
+        <h6>Programme: BCom CA</h6>
+        <span class="btn btn-dark btn-sm"routerLink="/Placement">-</span>
+  
+        <table border="2" rules="all" width="60%" align="center">
+          <tr>
+            <th colspan="12">Semester</th>
+          </tr>
+          <tr>
+            <th>Sem</th>
+            <th>CourseCode</th>
+            <th>Title</th>
+            <th>Max Marks</th>
+            <th>Total</th>
+            <th>Credit</th>
+            <th>Result</th>
+            <th>Exam month<br> & Year</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>21ULTFC1001</td>
+            <td>Tamil-|</td>
+            <td>100</td>
+            
+            <td>{{ tamil_1}}</td>
+            <td>3</td>
+           <td *ngIf=" tamil_1 >= 50; else fail">P</td>
+            <td>Nov 21</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>21UGEFC1001</td>
+            <td>General English-1</td>
+            <td>100</td>
+            
+            <td>{{ generalEnglish_1}}</td>
+            <td>3</td>
+           <td *ngIf=" generalEnglish_1 >= 50; else fail">P</td>
+            <td>Nov 21</td>
+          </tr>
+         
+          <tr>
+            <td>2</td>
+            <td>21ULTFC2002</td>
+            <td>tamil_2</td>
+            <td>100</td>
+            
+            <td>{{tamil_2}}</td>
+            <td>3</td>
+           <td *ngIf="tamil_2 >= 50; else fail">P</td>
+            <td>Apr 22</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>21UGTFC2002</td>
+            <td> generalEnglish_2</td>
+            <td>100</td>
+            
+            <td>{{ generalEnglish_2}}</td>
+            <td>3</td>
+           <td *ngIf=" generalEnglish_2 >= 50; else fail">P</td>
+            <td>Apr 22</td>
+          </tr>
+          <tr>
+          <td>2</td>
+            <td>21UCCC2002</td>
+            <td>AdvancedFinancialAccounting</td>
+            <td>100</td>
+            
+            <td>{{advancedFinancialAccounting}}</td>
+            <td>3</td>
+           <td *ngIf="advancedFinancialAccounting >= 50; else fail">P</td>
+            <td>Apr 22</td>
+          </tr>
+          <tr>
+            <td>2</td>
+              <td>21UCCCT2003</td>
+              <td>PythonProgramming</td>
+              <td>100</td>
+              
+              <td>{{ pythonProgramming}}</td>
+              <td>3</td>
+             <td *ngIf=" pythonProgramming >= 50; else fail">P</td>
+              <td>Apr 22</td>
+            </tr>
+            <tr>
+              <td>2</td>
+                <td>21UCCCP2002</td>
+                <td>PythonProgramming-practical</td>
+                <td>100</td>
+                
+                <td>{{  pythonProgrammingPractical}}</td>
+                <td>3</td>
+               <td *ngIf="  pythonProgrammingPractical>= 50; else fail">P</td>
+                <td>Apr 22</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                  <td>21UCCCT3004</td>
+                  <td>Corporate Accounting</td>
+                  
+                  <td>100</td>
+                  <td>{{  corporateAccounting}}</td>
+                  <td>3</td>
+                 <td *ngIf="  corporateAccounting>= 50; else fail">P</td>
+                  <td>Nov 21</td>
+                </tr>
+                
+                  
+                  <tr>
+                    <td>3</td>
+                      <td>21UCCCp3007</td>
+                      <td>WebTechnology</td>
+                      <td>100</td>
+                      
+                      <td>{{ webTechnology}}</td>
+                      <td>3</td>
+                     <td *ngIf=" webTechnology>= 50; else fail">P</td>
+                      <td>Nov 22</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                        <td>21UCCCP3006</td>
+                        <td>Web Technologypractical</td>
+                        
+                        <td>100</td>
+                        <td>{{  webTechnologyPractical}}</td>
+                        <td>3</td>
+                       <td *ngIf="  webTechnologyPractical>= 50; else fail">P</td>
+                        <td>Nov 22</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                          <td>21UCCCT4008</td>
+                          <td>AdvancedCorporateAccounting</td>
+               <td>100</td> 
+               <td>{{ advancedCorporateAccounting}}</td>
+                          <td>3</td>
+                         <td *ngIf=" advancedCorporateAccounting>= 50; else fail">P</td>
+                          <td>Apr 23</td>
+                        </tr>
+                       
+                          <tr>
+                            <td>4</td>
+                              <td>21UCCCT4010</td>
+                              <td>Java</td>
+                              <td>100</td>
+                            
+                              <td>{{java}}</td>
+                              <td>3</td>
+                             <td *ngIf="java>= 50; else fail">P</td>
+                              <td>Apr 23</td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                                <td>21UCCCT4011</td>
+                                <td>Java-practical</td>
+                                <td>100</td>
+                                
+                                <td>{{ javaPractical}}</td>
+                                <td>3</td>
+                               <td *ngIf=" javaPractical>= 50; else fail">P</td>
+                                <td>Apr 23</td>
+                              </tr>
+                             
+                                <tr>
+                                <td>5</td>
+                                <td>21UCCCT5012</td>
+                                <td>Software Testing</td>
+                                <td>100</td>
+                                
+                                <td>{{ softwareTesting}}</td>
+                                <td>3</td>
+                               <td *ngIf="softwareTesting>= 50; else fail">P</td>
+                                <td>Nov 23</td>
+                              </tr>
+                              <tr>
+                                <td>5</td>
+                                <td>21UCCCT5013</td>
+                                <td>Software Testing-practical</td>
+                                <td>100</td>
+                                
+                                <td>{{softwareTestingPractical}}</td>
+                                <td>3</td>
+                               <td *ngIf="softwareTestingPractical>= 50; else fail">P</td>
+                                <td>Nov 23</td>
+                              </tr>
+                              <tr>
+                                <td>6</td>
+                                <td>21UCCCT6014</td>
+                                <td>Financial Services</td>
+                                <td>100</td>
+                                
+                                <td>{{FinancialServices}}</td>
+                                <td>3</td>
+                               <td *ngIf="FinancialServices>= 50; else fail">P</td>
+                                <td>Apr 24</td>
+                              </tr>
+                             
+                              <tr>
+                                <td>6</td>
+                                <td>21UCCCT6016</td>
+                                <td>Income Tax</td>
+                                <td>100</td>
+                                
+                                <td>{{ IncomeTax}}</td>
+                                <td>3</td>
+                               <td *ngIf=" IncomeTax>= 50; else fail">P</td>
+                                <td>Apr 24</td>
+                              </tr>
+        </table>
+      </div>
+    </div>
+  
+
+    <h1 *ngIf="tamil_1 >= 50 && generalEnglish_1 >= 50 && tamil_2 >=50 &&  generalEnglish_2 >=50 &&   advancedFinancialAccounting>=50 &&  pythonProgramming>=50 &&  pythonProgrammingPractical>=50 && corporateAccounting>=50 &&  webTechnology>=50 && webTechnologyPractical>=50 &&  advancedCorporateAccounting>=50 &&   java>=50 &&   javaPractical>=50 &&  softwareTesting>=50 &&  softwareTestingPractical>=50  && IncomeTax>=50 ; else failcode">Pass</h1>
+    
+    <ng-template #failcode>
+      <h1>Fail</h1>
+    </ng-template>
+  
+    <ng-template #fail>
+      <span>F</span>
+    </ng-template>
+  </article>
+  

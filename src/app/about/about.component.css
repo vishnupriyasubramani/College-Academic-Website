@@ -1,0 +1,64 @@
+
+#content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+#sidebar {
+    width: 550px;
+    
+}
+
+
+.column1 {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+.column1 p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+h2{
+	font-family:Cambria;
+	font-size:20px;
+	color:green;
+}
+h1{
+	font-size:20px;
+	font-family:Cambria;
+	color:green;
+        text-align:center;
+
+	
+}
+#c1{
+	display:flex;
+	margin:solid white 10px;
+	padding-left: 200px
+}
+#c2{
+	display:flex;
+	margin:solid white 20px;
+	padding-left: 200px;
+}
+	
+#p2{
+	font-size:14px;
+	font-family:Cambria;
+}
+#h2{
+	text-align:center;
+	
+}
+.vision-mission{
+	padding: 10px;
+	 opacity:0.4;
+}
+	

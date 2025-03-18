@@ -1,0 +1,41 @@
+
+#c1{
+	display:flex;
+	margin:solid black 10px;
+    padding: 20px;
+	padding-left: 500px
+}
+#c2{
+	display:flex;
+	margin:solid #000000 20px;
+	padding-left: 500px;
+}
+#c3{
+    display:flex;
+	margin:solid black 10px;
+    padding: 20px;
+	padding-left: 400px
+
+}
+#c4{
+    display:flex;
+	margin:solid black 20px;
+	padding-left: 400px;
+
+}
+.p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
+h3{
+
+    text-align: center;
+    color: rgb(82, 48, 4);
+    padding: 10px;
+}
+details{
+  text-align: center;
+}
